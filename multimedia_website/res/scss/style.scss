@@ -1,0 +1,91 @@
+@import "global";
+@import "_colors";
+
+section.exp1 {
+    height: 70vh;
+
+    div.carousel-inner {
+        img {
+            width: 100%;
+            height: 70vh;
+        }
+
+        div.carousel-caption {
+            h5 {
+                color: $red-head;
+            }
+
+            p {
+                color: $yellow-gloves;
+            }
+        }
+    }
+}
+
+section.exp2 {
+    height: 70vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+
+    div.row {
+        div.col-md-6 {
+            position: relative;
+
+            button {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, 50%);
+                background-color: $red-head;
+                outline: none;
+                border: none;
+                padding: 10px 5px;
+            }
+        }
+    }
+}
+
+section.exp3 {
+    background-color: $primary-color;
+
+    div.row {
+        &:nth-child(2) {
+            background-color: white;
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+section.exp5 {
+    img {
+        width: 100%;
+        height: 580px;
+    }
+
+    .sml {
+        height: 290px;
+    }
+}
+
+section.exp7 {
+    img {
+        width: 100%;
+        height: 70vh;
+    }
+}
+
+footer.btm-foot {
+    background-color: rgb(54, 54, 54);
+    color: whitesmoke;
+    z-index: -1;
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+}

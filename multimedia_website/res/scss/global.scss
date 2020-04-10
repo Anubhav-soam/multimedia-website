@@ -1,0 +1,46 @@
+@import "_colors";
+
+* {
+    position: relative;
+}
+
+html {
+    position: relative;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    scroll-behavior: smooth;
+    background-color: $secondary-color !important;
+}
+
+nav.vert-nav {
+    width: fit-content;
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    background-color: black;
+
+    ul {
+        list-style: none;
+        padding: 10px;
+
+        li {
+            a {
+                color: $yellow-gloves !important;
+            }
+        }
+    }
+}
+
+section {
+    margin: 60px 0px;
+
+    img {
+        width: 100%;
+    }
+}
